@@ -1,0 +1,116 @@
+:root {
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+
+  font-family: Verdana;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  color: #335576;
+}
+
+.nav-bar {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar__logo {
+  padding-left: 80px;
+}
+
+.nav-bar-links {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 80px;
+  margin-bottom: 0;
+}
+
+.nav-bar-links__link {
+  color: black;
+  margin: 10px;
+  padding-bottom: 5px;
+}
+
+.nav-bar__link--active {
+  border-bottom: 4px solid #db7a4e;
+}
+
+footer {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-bottom: 10px;
+}
+
+.footer__section {
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.footer__section__subtitle {
+  color: #db7a4e;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.footer__section__text {
+  color: #335576;
+}
+
+.footer-section-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__section-weekdays {
+  margin-right: 15px;
+}
+
+.footer__section-saturday {
+  margin: 0 15px;
+}
+
+.footer__section-sunday {
+  margin: 0 15px;
+}
+
+.footer__section img {
+  text-align: left;
+}
+.footer__img-instagram {
+  width: 25px;
+  height: 25px;
+  margin: 15px 15px 15px 0;
+}
+.footer__img-facebook {
+  width: 13px;
+  height: 25px;
+  margin: 15px;
+}
+.footer__img-twitter {
+  width: 26px;
+  height: 25px;
+  margin: 15px;
+}
