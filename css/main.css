@@ -1,8 +1,8 @@
 .hero {
-  margin-top: 70px;
+  margin-top: 3.75rem;
   background-color: #fefaf5;
   display: flex;
-  padding: 40px 80px 60px 40px;
+  padding: 2.5rem 5rem 3.75rem 2.5rem;
   justify-content: space-between;
 }
 
@@ -10,11 +10,11 @@
   align-items: center;
   text-align: left;
   width: 60%;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .hero__title h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 .hero__title p {
   color: #335576;
@@ -22,43 +22,43 @@
 
 .hero__button {
   background-color: #db7a4e;
-  padding: 10px 40px;
+  padding: 0.625rem 2.5rem;
   color: white;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   display: inline-block;
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 .hero__image {
   width: 40%;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .hero__image img {
-  width: 440px;
-  height: 370px;
+  width: 27.5rem;
+  height: 23.125rem;
 }
 
 .recommendations-section {
-  padding: 20px 80px 60px 80px;
+  padding: 1.25rem 5rem 3.75rem 5rem;
 }
 
-.cards-container {
+.recommendations-section__cards-container {
   display: flex;
   justify-content: center;
 }
 
-.cards-container__card {
+.recommendations-section__card {
   background-size: cover;
   background-position: center;
-  height: 380px;
+  height: 23.75rem;
   width: 20%;
-  margin: 10px 20px 20px 20px;
+  margin: 0.625rem 1.25rem 1.25rem 1.25rem;
   position: relative;
-  border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.3125rem;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
 }
-.cards-container h2 {
+.recommendations-section__cards-container h2 {
   color: white;
   position: absolute;
   bottom: 4%;
@@ -66,15 +66,12 @@
   margin: 0;
 }
 
-.cards-container__card--hawaii {
+.recommendations-section__card__hawaii {
   background-image: url(../assets/Images/hawaii.jpg);
 }
-.cards-container__card--iceland {
+.recommendations-section__card__iceland {
   background-image: url(../assets/Images/iceland.jpg);
 }
-.cards-container__card--greece {
+.recommendations-section__card__greece {
   background-image: url(../assets/Images/greece.jpg);
 }
-/* background-image: url(../assets/images/coffee-circle.jpg);
-  background-size: cover;
-  background-position: center; */
