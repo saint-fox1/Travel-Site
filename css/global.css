@@ -38,13 +38,13 @@ h3 {
   padding-left: 5rem;
 }
 
-.nav-bar-links {
+.nav-bar__links {
   display: flex;
   justify-content: space-between;
   margin: 0.625rem 5rem 0 0;
 }
 
-.nav-bar-links__link {
+.nav-bar__link {
   color: black;
   margin: 0.625rem;
 }
@@ -104,7 +104,7 @@ footer {
   margin: 0.9375rem 0.9375rem 0.9375rem 0;
 }
 .footer__img-facebook {
-  width: 0.8125rem;
+  width: 0.8125;
   height: 1.5625rem;
   margin: 0.9375rem;
 }
