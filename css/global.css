@@ -49,6 +49,10 @@ h3 {
   margin: 0.625rem;
 }
 
+.nav-bar__link:hover {
+  border-bottom: 0.25rem solid #335576;
+}
+
 .nav-bar__link--active {
   border-bottom: 0.25rem solid #db7a4e;
 }

@@ -58,6 +58,10 @@
   border: 0.0625rem solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
 }
+.recommendations-section__card:hover {
+  border-color: #db7a4e;
+  border-width: 5px;
+}
 .recommendations-section__cards-container h2 {
   color: white;
   position: absolute;
